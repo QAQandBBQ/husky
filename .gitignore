@@ -1,0 +1,8 @@
+node_modules/
+/logs
+.DS_Store
+.vscode/
+.history
+dist/
+.yalc/
+.temp_cache
