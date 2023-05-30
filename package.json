@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,9 @@
   "devDependencies": {
     "esbuild": "^0.17.19",
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@shebao/husky": "workspace:^1.0.0",
+    "husky": "^8.0.3"
   }
 }

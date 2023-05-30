@@ -2,15 +2,17 @@
   "name": "@shebao/husky",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "scripts/index.js",
   "type": "commonjs",
   "scripts": {
-    "build": "esbuild index.ts --bundle --platform=node --outfile=dist/index.js --watch"
+    "build": "esbuild ./scripts/index.js --platform=node --outfile=dist/index.js --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "axios": "^1.4.0",
+    "execa": "5.0.0",
     "husky": "^8.0.3"
   }
 }
